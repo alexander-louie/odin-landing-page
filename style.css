@@ -6,12 +6,6 @@ body {
   flex-direction: column;
 }
 
-.container {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: space-around;
-}
-
 .header, .footer {
   background-color: #1F2937;
   display: flex;
@@ -71,6 +65,7 @@ a {
   width: 1000px;
   height: 250px;
   background-color: darkgrey;
+  color: #f9faf8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,4 +124,46 @@ button {
   font-weight: 800;
   display: flex;
   justify-content: flex-end;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 50px 100px;
+  margin: auto;
+}
+
+.action-container {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.action-header {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.action-text .text {
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.sign-up.bottom {
+  border: 2px solid #F9FAF8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  height: 72px;
+  margin-top: auto;
 }
